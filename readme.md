@@ -16,7 +16,7 @@ Sistem ini memungkinkan pengguna untuk mencari film, melihat detail film, menyim
   Save favorite movies
 - ❌ Hapus film favorit  
   Delete favorite movies
-- 🖥 UI responsif menggunakan Tailwind CSS  
+- 🖥 UI menggunakan Tailwind CSS  
   Responsive UI with Tailwind CSS
 - 🌐 Bahasa Indonesia dan Inggris  
   Indonesian and English supported
@@ -30,7 +30,7 @@ Sistem ini memungkinkan pengguna untuk mencari film, melihat detail film, menyim
 - Guzzle HTTP Client (`use GuzzleHttp\Client;`)
 - Tailwind CSS
 - Blade Templates
-- MySQL / Database untuk menyimpan user dan film favorit
+- PGSQL / Database untuk menyimpan user dan film favorit
 - OMDb API (http://www.omdbapi.com/)
 
 ---
