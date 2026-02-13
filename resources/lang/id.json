@@ -1,0 +1,18 @@
+{
+    "Welcome": "Selamat Datang",
+    "Login": "Masuk",
+    "Subtitle_login": "Masuk ke akun Anda",
+    "Logout": "Keluar",
+    "Dashboard": "Dashboard",
+    "Username": "Username",
+    "Password": "Password",
+    "Sign In": "Masuk",
+    "Dont_have_account": "Belum punya akun?",
+    "Register": "Daftar",
+    "Movie_List":"Daftar Film",
+    "Home":"Rumah",
+    "Detail":"Detail",
+    "Simpan_movie":"Simpan",
+    "detail_empty_likes":"Kamu belum menyukai film apa pun",
+     "Liked_movies_title":"Film Film Yang Saya Sukai"
+}

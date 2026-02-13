@@ -1,0 +1,18 @@
+{
+    "Welcome": "Welcome",
+    "Login": "Login",
+    "Subtitle_login":"Login to your account",
+    "Logout": "Logout",
+    "Dashboard": "Dashboard",
+    "Username": "Username",
+    "Password": "Password",
+    "Sign In": "Sign In",
+    "Dont_have_account": "Don't have an account?",
+    "Register": "Register",
+    "Movie_List":"Movie List",
+    "Home":"Home",
+    "Detail":"Detail",
+    "Simpan_movie":"Save",
+    "detail_empty_likes":"You haven't liked any movies yet.",
+    "Liked_movies_title":"My Liked Movies"
+}
