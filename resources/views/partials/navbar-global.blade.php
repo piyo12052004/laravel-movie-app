@@ -54,7 +54,7 @@
                 </div>
 
                 <!-- Hamburger Mobile -->
-                <div class="hidden">
+                <div class="md:hidden">
                     <button id="mobile-menu-btn" class="focus:outline-none">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -68,17 +68,9 @@
     </div>
 
     <!-- Menu Mobile -->
-    <div id="mobile-menu" class="hidden hidden bg-gray-700">
-        <a href="{{ url('/') }}" class="block px-4 py-2 hover:bg-gray-600">Home</a>
-        <a href="{{ url('/about') }}" class="block px-4 py-2 hover:bg-gray-600">About</a>
-        <a href="{{ url('/contact') }}" class="block px-4 py-2 hover:bg-gray-600">Contact</a>
-        <a href="{{ url('/profile') }}" class="block px-4 py-2 hover:bg-gray-600 flex items-center">
-            <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M5.121 17.804A12.072 12.072 0 0112 15c2.21 0 4.274.634 6 1.725M12 12a4 4 0 100-8 4 4 0 000 8z" />
-            </svg>
-            {{ auth()->user()->name ?? 'Profile' }}
-        </a>
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-700">
+        <a href="{{ url('/') }}" class="block px-4 py-2 hover:bg-gray-600">{{__('Home')}}</a>
+        <a href="{{ url('/details') }}" class="block px-4 py-2 hover:bg-gray-600">{{__('Detail')}}</a>
     </div>
 </nav>
 
